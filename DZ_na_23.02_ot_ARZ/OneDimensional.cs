@@ -5,10 +5,10 @@ sealed class OneDimensional : MainClass, InterfaceOneDimensional
     private int[] _array;
     public OneDimensional(bool consoleValues = false)
     {
-        Recreate(consoleValues);
+        CreateAgain(consoleValues);
     }
 
-    public override void Recreate(bool consoleValues = false)
+    public override void CreateAgain(bool consoleValues = false)
     {
         CreateArray(consoleValues);
     }
