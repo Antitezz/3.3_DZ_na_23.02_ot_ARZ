@@ -1,5 +1,5 @@
 ﻿using System;
-interface  : InterfaceDimensional
+interface InterfaceDimensional : IPrinter
 {
     void PublicInputArray();
     void PublicRandomArray();
